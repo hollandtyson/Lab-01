@@ -16,7 +16,7 @@ library(datasauRus)
 
 ### Exercise 1
 
-Remove this text, and add your answer for Exercise 1 here.
+1846 rows and 3 variables which are dataset, x, and y.
 
 ### Exercise 2
 
@@ -33,7 +33,7 @@ ggplot(data = dino_data, mapping = aes(x = x, y = y)) +
   geom_point()
 ```
 
-And next calculate the correlation between `x` and `y` in this dataset:
+And next calculate the correlation between `x` and `y` in this dataset: -0.0645
 
 ```{r cor-dino}
 dino_data %>%
